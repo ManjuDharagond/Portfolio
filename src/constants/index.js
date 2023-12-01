@@ -180,29 +180,57 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Connect with me on LinkedIn to stay updated on my professional journey, explore shared insights, and discuss industry trends.",
+      name: "manjudharagond",
+      designation: "ID",
+      profileUrl:"https://www.linkedin.com/in/manjudharagond/",
+      company: "LinkedIn",
+      image: "https://media.licdn.com/dms/image/C5603AQGN80BsU_cNTw/profile-displayphoto-shrink_100_100/0/1629657801462?e=1706745600&v=beta&t=m94vrRmLEzmN_2B0yMjr10sf2gK1bic-baoM-LU2_3Y"},
+    {
+      testimonial:
+        "Explore my GitHub repositories to discover code projects, DSA solutions, contribute to open source, and collaborate on innovative solutions.",
+      name: "manjudharagond",
+      designation: "ID",
+      profileUrl:"https://github.com/ManjuDharagond",
+      company: "Github",
+      image: "https://avatars.githubusercontent.com/u/99145177?v=4",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Challenge me on LeetCode to tackle problems, sharpen coding skills, and celebrate the joy of overcoming programming hurdles.",
+      name: "user7208d",
+      designation: "ID",
+      profileUrl:"https://leetcode.com/user7208d/",
+      company: "Leetcode",
+      image: "https://assets.leetcode.com/users/avatars/avatar_1647371893.png",
     },
   ];
+  // const testimonials = [
+  //   {
+  //     testimonial:
+  //       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+  //     name: "Sara Lee",
+  //     designation: "CFO",
+  //     company: "Acme Co",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //     name: "Chris Brown",
+  //     designation: "COO",
+  //     company: "DEF Corp",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //     name: "Lisa Wang",
+  //     designation: "CTO",
+  //     company: "456 Enterprises",
+  //     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  //   },
+  // ];
   
   const projects = [
     {
