@@ -2,6 +2,10 @@ import {
     mobile,
     backend,
     creator,
+    bootstrap,
+    jquery,
+    ejs,
+    portfolio,
     web,
     javascript,
     typescript,
@@ -26,6 +30,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    email,
+    shopnest,
   } from "../assets";
   
   export const navLinks = [
@@ -73,20 +79,20 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "jQuery",
+      icon: jquery,
     },
     {
       name: "Tailwind CSS",
@@ -101,10 +107,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -113,8 +115,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "EJS",
+      icon: ejs,
     },
   ];
 
@@ -204,67 +206,70 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3D Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Portfolio project showcasing my skills, work experience, and various projects. Highlights include a user-friendly contact form for seamless interaction, providing a comprehensive overview of my capabilities and accomplishments.",
       tags: [
+        {
+          name: "threeJS",
+          color: "blue-text-gradient",
+        },
         {
           name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      project_live_link: "https://manjudharagond.netlify.app/",
+      source_code_link: "https://github.com/ManjuDharagond/Portfolio",
     },
     {
-      name: "Job IT",
+      name: "E-Commerce",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "E-commerce website featuring advanced functionalities: seamless Google Sign-in, secure JWT authentication, Razorpay integration for smooth transactions, and a responsive shopping cart for an optimal user experience.",
       tags: [
         {
-          name: "react",
+          name: "reactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nodeJS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: shopnest,
+      project_live_link: "https://shopnest-store.netlify.app/",
+      source_code_link: "https://github.com/ManjuDharagond/ShopNest_Store",
     },
     {
-      name: "Trip Guide",
+      name: "Email AutoResponder",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Autoresponder vacation email web app powered by Node.js and Gmail API. Key features include automated responses and mail labeling at set intervals. Built using Node.js, Google OAuth, and Gmail API for seamless functionality.",
       tags: [
         {
-          name: "nextjs",
+          name: "nodeJs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "googleOAuth",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "gmailAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: email,
+      project_live_link:"https://drive.google.com/file/d/1HwIGQXAKxqU1FsJcKujYxxELuj0bXMRL/view?usp=sharing",
+      source_code_link: "https://github.com/ManjuDharagond/Gmail-Api",
     },
   ];
   

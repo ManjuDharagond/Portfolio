@@ -6,7 +6,7 @@ import {SectionWrapper} from '../hoc';
 import {projects} from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({name, description, index, tags, image, source_code_link})=>{
+const ProjectCard = ({name, description, index, tags, image, source_code_link, project_live_link})=>{
   return (
     <motion.div variants={fadeIn("up", "spring", index*0.5, 0.75)}>
       <Tilt
@@ -21,7 +21,7 @@ const ProjectCard = ({name, description, index, tags, image, source_code_link})=
             </div>
           </div>
         </div>
-        <div className='mt-5'>
+        <div className='mt-5 cursor-pointer' onClick={()=>window.open(project_live_link, "_black")}>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>

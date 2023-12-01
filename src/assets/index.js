@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import bootstrap from "./tech/bootstrap.png";
+import jquery from "./tech/jquery.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,7 +22,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import ejs from "./tech/ejs.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -28,6 +30,9 @@ import tesla from "./company/tesla.png";
 import edureka from "./company/edureka.png";
 import tutedude from "./company/tutedude.png"
 import newton from "./company/newton.png"
+import portfolio from "./portfolio.png"
+import shopnest from "./shopnest.png"
+import email from "./email.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -43,6 +48,9 @@ export {
   close,
   css,
   docker,
+  bootstrap,
+  jquery,
+  ejs,
   figma,
   git,
   html,
@@ -61,6 +69,9 @@ export {
   tesla,
   newton,
   tutedude,
+  portfolio,
+  shopnest,
+  email,
   carrent,
   jobit,
   tripguide,
