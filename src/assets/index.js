@@ -25,7 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import edureka from "./company/edureka.png";
+import tutedude from "./company/tutedude.png"
+import newton from "./company/newton.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -53,9 +55,12 @@ export {
   typescript,
   threejs,
   meta,
+  edureka,
   shopify,
   starbucks,
   tesla,
+  newton,
+  tutedude,
   carrent,
   jobit,
   tripguide,

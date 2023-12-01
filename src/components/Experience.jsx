@@ -36,6 +36,9 @@ const ExperienceCard = ({experience}) =>{
               {point}
             </li>
         ))}
+       {experience.certificateUrl && (
+        <li key={experience.certificateUrl} className="text-blue-100 blue-text-gradient  text-[14px] pl-1 tracking-wider"><a href={experience.certificateUrl} target="_blank" rel="noopener noreferrer">View Certificate</a></li>
+       )}
       </ul>
 
 
